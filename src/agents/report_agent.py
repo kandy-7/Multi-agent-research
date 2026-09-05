@@ -5,7 +5,7 @@ from src.prompts.report_prompt import REPORT_PROMPT
 def report_agent(research_notes):
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[
             {
                 "role": "system",

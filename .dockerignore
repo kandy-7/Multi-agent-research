@@ -1,0 +1,6 @@
+.env
+multi_agent_scraper/
+__pycache__/
+*.pyc
+.git/
+.gitignore
