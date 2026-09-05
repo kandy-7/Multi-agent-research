@@ -12,6 +12,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    env:
+      GROQ_API_KEY: test-key-for-ci
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
