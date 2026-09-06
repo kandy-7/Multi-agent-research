@@ -28,4 +28,4 @@ jobs:
               --env-file .env \
               --restart unless-stopped \
               ghcr.io/kandy-7/multi-agent-research:latest
-# EC2 deployment workflow
+# EC2 deployment workflow - retry
